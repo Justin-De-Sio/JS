@@ -117,6 +117,15 @@ const boxes = document.querySelectorAll(".box");
 
 boxes.forEach(box => {
    box.addEventListener("click",(e)=>{
-      console.log(e.target);
+       let result = e.target;
    })
 });
+//--------------------------------------------------------------------
+//onclick
+// document.body.onclick = ()=>{
+//    console.log('click');
+// }
+
+document.body.addEventListener("click",()=>{
+   
+})
